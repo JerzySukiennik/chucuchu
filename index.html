@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¡Chucuchú!</title>
+<meta name="description" content="Carrera de trenes en español: gra klasowa z pytaniami z hiszpańskiego, zabawkowymi pociągami 3D i power-upami.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚂%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body class="is-title">
+<canvas id="scene"></canvas>
+<div id="frame"></div>
+<div id="labels"></div>
+<header id="top">
+  <div class="mini-logo" aria-hidden="true">¡Chucuchú!</div>
+  <button class="btn sm" data-act="fs" style="--c:var(--sky)" title="Pełny ekran (F)">⛶</button>
+  <button class="btn sm" data-act="menu" style="--c:var(--grape)">☰ Menú <kbd>M</kbd></button>
+</header>
+<aside id="board" class="card"></aside>
+<div id="dock"></div>
+<main id="title"></main>
+<div id="banner"></div>
+<div id="overlay"></div>
+<div id="modal"></div>
+<div id="toast"></div>
+</body>
+</html>
